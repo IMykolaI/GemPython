@@ -1,9 +1,4 @@
 
-
-
-
-
-
 class Gem:
 
     totalNumberOfGems = 0
