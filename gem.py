@@ -18,8 +18,6 @@ class Gem:
         return "Name: {0}, Carats Number: {1}, Price: {2}\nColor: {3}, Weight: {4} kg, Purity: {5}.\n".format(self._name, self._caratsNumber, 
             self._price, self._color, self._weight, self._purity)
 
-    __repr__ = __str__
-
     @staticmethod
     def updateNumberOfGems(numberOfNewGems):
             Gem.totalNumberOfGems += numberOfNewGems
